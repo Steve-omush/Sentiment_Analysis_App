@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hsemk@m&q@3awp-_&2&)4gc+5m7+nv&o-qpsrnc^_tg+wufk^z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://sentiment-analysis-app-8b4o.onrender.com/']
 
 
 # Application definition
