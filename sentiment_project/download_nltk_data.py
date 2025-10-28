@@ -5,7 +5,7 @@ import os
 base_dir = os.path.dirname(__file__)
 nltk_path = os.path.join(base_dir, "nltk.txt")
 
-with open("nltk.txt") as f:
+with open(nltk_path) as f:
     packages = f.read().splitlines()
 
 for package in packages:
