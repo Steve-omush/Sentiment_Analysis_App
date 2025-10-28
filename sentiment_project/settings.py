@@ -30,9 +30,12 @@ if NLTK_DATA_DIR.exists():
 SECRET_KEY = 'django-insecure-hsemk@m&q@3awp-_&2&)4gc+5m7+nv&o-qpsrnc^_tg+wufk^z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    os.environ.get("RENDER_EXTERNAL_HOSTNAME", "localhost"),
+    "127.0.0.1",
+]
 
 
 # Application definition
