@@ -16,12 +16,11 @@ import nltk
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Ensure NLTK knows where to find data
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NLTK_PATH = os.path.join(BASE_DIR, "nltk_data")
+# Tell NLTK where to find the downloaded data
+NLTK_DATA_DIR = BASE_DIR / "nltk_data"
 
-if os.path.exists(NLTK_PATH):
-    nltk.data.path.append(NLTK_PATH)
+if NLTK_DATA_DIR.exists():
+    nltk.data.path.append(str(NLTK_DATA_DIR))
 
 
 # Quick-start development settings - unsuitable for production
