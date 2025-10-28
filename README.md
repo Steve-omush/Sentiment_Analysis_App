@@ -111,19 +111,13 @@ Model: Logistic Regression (binary classification) trained on Twitter data.
 
 Below are screenshots of the app with short explanations.
 
-<<<<<<< HEAD
-|                                                                                                                        Screenshot | Description                                                                                                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                          <img src="images/src/app.png" alt="App main screen" style="width:400px; height:250px; object-fit:contain;"/> | **App main screen** — the home interface where users enter text to analyze sentiment. The input box and the "Analyze Sentiment" button are visible.                                                   |
-| <img src="images/src/negative-sentiment.png" alt="Negative sentiment result" style="width:400px; height:250px; object-fit:contain;"/> | **Negative sentiment result** — an example output when the model classifies the input as negative. Shows the predicted label and any additional info (score, highlighted words, etc.) as implemented. |
-| <img src="images/src/positive-sentiment.png" alt="Positive sentiment result" style="width:400px; height:250px; object-fit:contain;"/> | **Positive sentiment result** — an example output when the model classifies the input as positive. Displays the predicted label and related details.                                                  |
-=======
+
 |                                                                                                                             Screenshot | Description                                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                          <img src="screenshots/app.PNG" alt="App main screen" style="width:400px; height:250px; object-fit:contain;"/> | **App main screen** — the home interface where users enter text to analyze sentiment. The input box and the "Analyze Sentiment" button are visible.                                                   |
 | <img src="screenshots/negative-sentiment.PNG" alt="Negative sentiment result" style="width:400px; height:250px; object-fit:contain;"/> | **Negative sentiment result** — an example output when the model classifies the input as negative. Shows the predicted label and any additional info (score, highlighted words, etc.) as implemented. |
 | <img src="screenshots/positive-sentiment.PNG" alt="Positive sentiment result" style="width:400px; height:250px; object-fit:contain;"/> | **Positive sentiment result** — an example output when the model classifies the input as positive. Displays the predicted label and related details.                                                  |
->>>>>>> 877a19a (Update images folder)
+
 
 ---
 
